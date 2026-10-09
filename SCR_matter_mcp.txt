@@ -1,0 +1,26 @@
+NXP Software Content Register
+
+Release - Matter MCP Server
+2026-October
+
+--------------------------------------------
+NXP Provided Packages
+--------------------------------------------
+Package: matter-mcp
+Outgoing License: MIT
+License File: LICENSE
+Release Location: NOASSERTION
+Type of content: Python source
+Description and comments: MCP server exposing Matter device tools to a local LLM via ollama-mcp-bridge
+Origin: NXP (MIT)
+                           mcp 1.30.0 (MIT) - https://github.com/modelcontextprotocol/python-sdk
+                           websocket-client 1.9.2 (Apache-2.0) - https://github.com/websocket-client/websocket-client
+                           ollama-mcp-bridge 0.12.2 (MIT) - https://github.com/jonigl/ollama-mcp-bridge
+
+--------------------------------------------
+Notes
+--------------------------------------------
+Transitive dependencies of ollama-mcp-bridge (fastapi, uvicorn, starlette,
+anyio, loguru, sse-starlette, typer, httpx, packaging) are not yet
+individually scanned. A Black Duck SCA pass is required before this SCR can
+be considered final; see nxp-ta-guidelines release checklist.
