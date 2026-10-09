@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """Three-layer device registry holding the node inventory.
 
 chip-tool has no "list nodes" command, so node inventory always comes from a

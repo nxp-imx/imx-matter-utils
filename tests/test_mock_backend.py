@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """Tests for the MatterBackend ABC and the in-memory MockBackend.
 
 The backend deals ONLY with live attribute values and command execution. It

@@ -19,3 +19,7 @@ Run the tests:
 ```bash
 .venv/bin/pytest
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).

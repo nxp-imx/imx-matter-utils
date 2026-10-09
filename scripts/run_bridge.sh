@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+#
 # Launch ollama-mcp-bridge with the Matter MCP server config.
 #
 # Configurable via environment variables:

@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """Pure parsers for chip-tool interactive-server WebSocket responses.
 
 Input is the already-decoded dict (json.loads of one WS frame), shaped

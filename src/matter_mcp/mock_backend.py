@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """In-memory MockBackend for development and tests.
 
 Simulates live Matter access with a dict keyed by

@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+#
 # Drive the 4 demo scenarios through the bridge. Requires run_bridge.sh running.
 set -euo pipefail
 URL=http://localhost:8000/api/chat

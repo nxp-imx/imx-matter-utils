@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+#
 #
 # Start the full REAL-DEVICE Matter stack for end-to-end chat testing.
 #

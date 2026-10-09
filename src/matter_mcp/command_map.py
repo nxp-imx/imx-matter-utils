@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """Static Matter-name -> chip-tool command-string builders.
 
 MVP scope (OnOff + TemperatureMeasurement) uses a fixed lookup instead of a

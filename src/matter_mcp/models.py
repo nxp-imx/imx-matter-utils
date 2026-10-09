@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """Uniform MCP tool error codes and helper.
 
 All four Matter MCP tools return structured JSON. On failure they return the

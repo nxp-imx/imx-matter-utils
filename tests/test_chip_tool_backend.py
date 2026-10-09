@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 import pytest
 from matter_mcp.chip_tool_backend import ChipToolBackend, refresh_discovery
 from matter_mcp.backend import MatterBackend

@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """FastMCP server exposing 4 Matter tools over stdio.
 
 Each tool validates its arguments, calls the backend, then shapes the output.

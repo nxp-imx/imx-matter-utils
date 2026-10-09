@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+#
 # Step-0 gate: prove qwen2.5:3b triggers a tool call via ollama-mcp-bridge.
 set -euo pipefail
 

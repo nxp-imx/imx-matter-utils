@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """Real Matter backend driving chip-tool interactive server over a WS adapter.
 
 command_map builds the command string, ChipWsAdapter sends it, and

@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 import json
 import pytest
 from matter_mcp.chip_ws_adapter import ChipWsAdapter

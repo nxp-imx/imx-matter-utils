@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """Backend abstraction between server.py and live Matter access.
 
 server.py does all validation (node/endpoint/cluster/attribute/command

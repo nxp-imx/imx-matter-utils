@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """Synchronous WebSocket transport to chip-tool interactive server.
 
 Single connection, strict request-response: send one command string, receive

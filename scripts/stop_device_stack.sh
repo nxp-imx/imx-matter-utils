@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+#
 #
 # Stop the real-device Matter stack started by start_device_stack.sh.
 #

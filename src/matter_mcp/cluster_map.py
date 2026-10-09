@@ -1,3 +1,7 @@
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """Static Matter cluster/attribute/command support table for the MVP.
 
 Lists which clusters/attributes/commands the MVP supports and their numeric

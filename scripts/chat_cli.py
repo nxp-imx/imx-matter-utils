@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+
 """Matter MCP chat command-line client.
 
 Pure standard library. Talks to the ollama-mcp-bridge /api/chat endpoint over

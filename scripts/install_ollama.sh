@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# Copyright 2026 NXP
+#
+# SPDX-License-Identifier: MIT
+#
 # Install Ollama and pull the qwen2.5:3b model.
 set -euo pipefail
 
