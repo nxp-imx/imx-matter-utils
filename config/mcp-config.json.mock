@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "devices": {
+      "command": "${workspaceFolder}/../.venv/bin/python",
+      "args": ["-m", "matter_mcp.server"],
+      "env": {
+        "MATTER_MCP_BACKEND": "mock"
+      },
+      "toolFilter": {
+        "mode": "include",
+        "tools": [
+          "matter_list_nodes",
+          "matter_describe_node",
+          "matter_read_attribute",
+          "matter_invoke_command"
+        ]
+      }
+    }
+  }
+}

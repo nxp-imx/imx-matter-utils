@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    {
+      "node_id": 1,
+      "commissioned": true,
+      "label": "lab_light",
+      "type": "light",
+      "room": "lab",
+      "discovery": { "source": "manual" },
+      "endpoints": [
+        { "endpoint": 1, "device_type": "DimmableLight", "clusters": ["OnOff", "LevelControl"] }
+      ]
+    }
+  ]
+}

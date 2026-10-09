@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "devices": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "matter_mcp.server"
+      ],
+      "env": {
+        "MATTER_MCP_BACKEND": "chiptool",
+        "MATTER_MCP_CHIP_WS_URL": "ws://127.0.0.1:9002",
+        "MATTER_MCP_CONFIG_DIR": "/etc/matter-mcp"
+      },
+      "toolFilter": {
+        "mode": "include",
+        "tools": [
+          "matter_list_nodes",
+          "matter_describe_node",
+          "matter_read_attribute",
+          "matter_invoke_command"
+        ]
+      }
+    }
+  }
+}

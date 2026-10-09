@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "devices": {
+      "command": "${workspaceFolder}/../.venv/bin/python",
+      "args": [
+        "-m",
+        "matter_mcp.server"
+      ],
+      "env": {
+        "MATTER_MCP_BACKEND": "chiptool",
+        "MATTER_MCP_CHIP_WS_URL": "ws://127.0.0.1:9002"
+      },
+      "toolFilter": {
+        "mode": "include",
+        "tools": [
+          "matter_list_nodes",
+          "matter_describe_node",
+          "matter_read_attribute",
+          "matter_invoke_command"
+        ]
+      }
+    }
+  }
+}
